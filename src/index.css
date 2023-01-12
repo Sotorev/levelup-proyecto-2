@@ -1,0 +1,52 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #f5f5f5;
+	margin: 0;
+}
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #333;
+}
+.counter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.counter-score{
+	font-size: 4rem;
+}
+.button-group{
+	margin-top: 10px;
+}
+.counter-action{
+	border: 1px solid #333;
+	border-radius: 5px;
+	height: 30px;
+	width: 70px;
+	margin-left: 10px;
+}
+.counter-action:first-child{
+	margin-left: 0;
+}
+.counter-action:hover{
+	background-color: #333;
+	color: #fff;
+}
+.high-score{
+	color: green;
+}
+.low-score{
+	color: red;
+}
